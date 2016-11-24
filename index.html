@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>putting bike lanes into OpenStreetMap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <link href='http://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet' type='text/css'>
+
+        <link href="css/pig.css" rel="stylesheet" type="text/css" />
+        <link href="css/base.css" rel="stylesheet" />
+
+        <script src="js/pig.js"></script>
+    </head>
+    <body>
+
+        <div class="slide">
+        </div>
+
+        <div class="slide">
+            <h2>me:</h2>
+            <h3>Eric Brelsford</h3>
+            <h3>@ebrelsford</h3>
+        </div>
+
+        <div class="slide">
+            <h2>me:</h2>
+            <h3>freelance programmer, mapmaker, teacher</h3>
+        </div>
+
+        <div class="slide" style="background-image: url(img/2016-counties.png);">
+            <a class="source" href="http://www-personal.umich.edu/~mejn/election/2016/">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/2016-counties-cartogram.png);">
+            <a class="source" href="http://www-personal.umich.edu/~mejn/election/2016/">source</a>
+        </div>
+
+        <div class="slide">
+            <h1>putting bike lanes into OpenStreetMap</h1>
+            <a href="http://bit.ly/sotmlatam-bikelanes" style="font-size: 70px;">bit.ly/sotmlatam-bikelanes</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/sao-paulo-lanes-article.png);">
+            <a class="source" href="http://www.wsj.com/articles/mayor-fernando-haddads-pro-bike-push-polarizes-sao-paulo-1443031374">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/bedford-lanes-0.png);">
+            <a class="source" href="http://gothamist.com/2009/12/01/city_to_remove_14_blocks_of_bedford.php">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/bedford-lanes-1.png);">
+            <a class="source" href="http://gothamist.com/2009/12/08/video_cycling_activists_repainting.php">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/bedford-lanes-2.png);">
+            <a class="source" href="http://gothamist.com/2009/12/11/bye_bye_bedford_bike_lane_dot_black.php">source</a>
+        </div>
+
+        <div class="slide">
+            <h2>Why map bike lanes?</h2>
+        </div>
+
+        <div class="slide">
+            <h2>Why map bike lanes?</h2>
+            <ul style="list-style: disc;">
+                <li>visibility and advocacy</li>
+            </ul>
+        </div>
+
+        <div class="slide" style="background-image: url(img/opencyclemap.png);">
+            <h2>OpenCycleMap</h2>
+            <a class="source" href="http://www.opencyclemap.org/">opencyclemap.org</a>
+        </div>
+
+        <div class="slide">
+            <h2>Why map bike lanes?</h2>
+            <ul style="list-style: disc;">
+                <li>visibility and advocacy</li>
+                <li>fun</li>
+            </ul>
+        </div>
+
+        <div class="slide" style="background-image: url(img/mapping-party.jpg);">
+            <a class="source" href="http://futurecity.glasgow.gov.uk/community-mapping/">source</a>
+        </div>
+
+        <div class="slide">
+            <h2>Why map bike lanes?</h2>
+            <ul style="list-style: disc;">
+                <li>visibility and advocacy</li>
+                <li>fun</li>
+                <li>routing</li>
+            </ul>
+        </div>
+
+        <div class="slide" style="background-image: url(img/citymapper.png);">
+            <h2>Citymapper</h2>
+            <a class="source" href="http://citymapper.com">Citymapper</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/cyclestreets.png);">
+            <h2>CycleStreets</h2>
+            <a class="source" href="http://cyclestreets.net">CycleStreets</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/cycle-travel.png);">
+            <h2>cycle.travel</h2>
+            <a class="source" href="http://cycle.travel/map">cycle.travel</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/mapzen-turn-by-turn.png);">
+            <h2>Mapzen Turn-by-Turn</h2>
+            <a class="source" href="https://mapzen.com/products/turn-by-turn/?d=1&lat=40.7259&lng=-73.9805&z=12&c=bicycle&st_lat=55.69288&st_lng=12.59903&st=19%20Langelinie%2C%20Copenhagen&end_lat=55.67199&end_lng=12.55758&end=8B%20Viktoriagade%2C%20Copenhagen&use_bus=&use_rail=&use_transfers=&dt=&dt_type=">source</a>
+        </div>
+
+        <div class="slide">
+            <h2>Why map bike lanes?</h2>
+            <ul style="list-style: disc;">
+                <li>visibility and advocacy</li>
+                <li>fun</li>
+                <li>routing</li>
+                <li>...or someone asks you to!</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <h2>How did we map bike lanes?</h2>
+        </div>
+
+        <div class="slide">
+            <ol>
+                <li>Get the official data (and permission to use it in OpenStreetMap)</li>
+            </ol>
+        </div>
+
+        <div class="slide" style="background-image: url(img/satellite.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/nyc-lines.png);">
+        </div>
+
+        <div class="slide">
+            <ol>
+                <li>Get the official data (and permission to use it in OpenStreetMap)</li>
+                <li>Compare official data to existing OpenStreetMap data</li>
+            </ol>
+        </div>
+
+        <div class="slide" style="background-image: url(img/osm-lines.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/osm-nyc-lines.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/osm-nyc-diff.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/osm-nyc-diff-satellite.png);">
+        </div>
+
+        <div class="slide">
+            <ol>
+                <li>Get the official data (and permission to use it in OpenStreetMap)</li>
+                <li>Compare official data to existing OpenStreetMap data</li>
+                <li>Add the difference (official data not in OSM) to MapRoulette</li>
+            </ol>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette.png);">
+            <h2>MapRoulette</h2>
+            <a class="source" href="http://maproulette.org">maproulette</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette.png);">
+            <h2>"a gamified approach to fixing OSM bugs"</h2>
+            <a class="source" href="http://maproulette.org">maproulette</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/mapzen-maproulette.png);">
+            <a class="source" href="https://mapzen.com/blog/valhalla_maproulette/">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/mapzen-maproulette-fix.gif);">
+            <a class="source" href="https://mapzen.com/blog/valhalla_maproulette/">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-oneway-edit-0.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-oneway-edit-1.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-admin-0.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-admin-0.png);">
+            <h2>you can create your own challenge in MapRoulette</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-admin-1.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-admin-1.png);">
+            <h2>just upload a GeoJSON file!</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-api.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-api.png);">
+            <h2>or use the API if that's not flexible enough</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maprouletteupload.png);">
+            <a class="source" href="https://github.com/ebrelsford/maprouletteupload">github.com/ebrelsford/maprouletteupload</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/maproulette-bikelanes.png);">
+        </div>
+
+        <div class="slide">
+            <ol>
+                <li>Get the official data (and permission to use it in OpenStreetMap)</li>
+                <li>Compare official data to existing OpenStreetMap data</li>
+                <li>Add the difference (official data not in OSM) to MapRoulette</li>
+                <li>Map!</li>
+            </ol>
+        </div>
+
+        <div class="slide" style="background-image: url(img/cyclestreets-mapping-guide.png);">
+            <a href="https://www.cyclestreets.net/getmapping/guide/CycleMappingGuide-print.pdf" class="source">CycleStreets</a>
+        </div>
+
+        <div class="slide">
+            <h2>good news:</h2>
+            <h2>you can map many bike lane attributes in OSM</h2>
+        </div>
+
+        <div class="slide">
+            <h2>bad news:</h2>
+            <h2>you can map many bike lane attributes in OSM</h2>
+        </div>
+
+        <div class="slide">
+            <h2>and bike lanes can get complicated</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/sharrows.jpg);">
+            <h2>"sharrows"</h2>
+            <p>
+                <span style="background: white;">(think "share" + "arrow")</span>
+            </p>
+        </div>
+
+        <div class="slide" style="background-image: url(img/bike-lane.jpg);">
+            <h2>bike lanes</h2>
+        </div>
+
+        <div class="slide" style="background-image: url(img/separate-lane.jpg);">
+            <h2>physically separated bike lanes</h2>
+            <a href="https://www.flickr.com/photos/nycstreets/6970686868/" class="source">NYC DOT</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/bikelanes-bidirectional.png);">
+            <h2>two-way lanes</h2>
+            <a href="https://www.google.com/maps/place/Brooklyn,+NY+11226,+USA/@40.6753224,-73.9698066,54m/data=!3m1!1e3!4m5!3m4!1s0x89c25b46e1e4a535:0xb78505a902c69307!8m2!3d40.6470923!4d-73.9536163?hl=en" class="source">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/bike-lane-tags.png);">
+            <a class="source" href="http://wiki.openstreetmap.org/wiki/Bicycle">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/valhalla-bicycle-tags.png);">
+            <h2>routers' guidelines for tagging bike lanes</h2>
+            <a class="source" href="http://wiki.openstreetmap.org/wiki/OSM_tags_for_routing/Valhalla">source</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/nycbikelanes-directions.png);">
+            <a class="source" href="https://github.com/osmlab/nycbikelanes/blob/master/challenges/city_not_osm/directions.md">github.com/osmlab/nycbikelanes</a>
+        </div>
+
+        <div class="slide" style="background-image: url(img/id-bike-lane.png);">
+        </div>
+
+        <div class="slide" style="background-image: url(img/nycbikelanes-github.png);">
+            <a class="source" href="https://github.com/osmlab/nycbikelanes">github.com/osmlab/nycbikelanes</a>
+        </div>
+
+        <div class="slide">
+            <h2>thanks!</h2>
+            <h3>Eric Brelsford</h3>
+            <h3>@ebrelsford</h3>
+            <a href="http://bit.ly/sotmlatam-bikelanes" style="font-size: 70px;">bit.ly/sotmlatam-bikelanes</a>
+        </div>
+
+    </body>
+</html>
